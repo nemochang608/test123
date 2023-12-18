@@ -1,0 +1,29 @@
+additional_paths: []
+category: ''
+commands:
+- command: script
+  id: 6dceff329d4011eeab538627c9832231
+  kwargs:
+    code: |
+      context.session.finish({"message": "Hello, world!"})
+connect_timeout: 60
+global_variables: {}
+method: GET
+name: test2
+request_timeout: 60
+routing_auto_generation_mode: true
+routing_options:
+  scope: local
+spec:
+  response:
+    normal:
+      codes:
+      - 200
+transaction:
+  async: true
+  enable: false
+  xname: ''
+update: '2023-12-18T09:57:34.081503+09:00'
+uri: /test/hello2
+variable_groups: []
+version: 1
