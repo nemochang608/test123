@@ -1,0 +1,29 @@
+additional_paths: []
+category: ''
+commands:
+- command: script
+  id: 9bcbe5ea9d7111eeab538627c9832231
+  kwargs:
+    code: |
+      print(1)
+connect_timeout: 60
+global_variables: {}
+method: GET
+name: mmm
+request_timeout: 60
+routing_auto_generation_mode: false
+routing_options:
+  scope: local
+spec:
+  response:
+    normal:
+      codes:
+      - 200
+transaction:
+  async: true
+  enable: false
+  xname: ''
+update: '2023-12-18T15:49:36.576166+09:00'
+uri: /v/a
+variable_groups: []
+version: 1
