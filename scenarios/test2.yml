@@ -2,16 +2,16 @@ additional_paths: []
 category: ''
 commands:
 - command: script
-  id: 9bcbe5ea9d7111eeab538627c9832231
+  id: 6dceff329d4011eeab538627c9832231
   kwargs:
     code: |
-      print(1)
+      context.session.finish({"message": "Hello, world!"})
 connect_timeout: 60
 global_variables: {}
 method: GET
-name: mmm
+name: test2
 request_timeout: 60
-routing_auto_generation_mode: false
+routing_auto_generation_mode: true
 routing_options:
   scope: local
 spec:
@@ -23,7 +23,7 @@ transaction:
   async: true
   enable: false
   xname: ''
-update: '2023-12-18T15:49:36.576166+09:00'
-uri: /v/a
+update: '2023-12-18T09:57:34.081503+09:00'
+uri: /test/hello2
 variable_groups: []
 version: 1
